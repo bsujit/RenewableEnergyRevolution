@@ -29,7 +29,7 @@ DB_PASSWORD = "123456"
 DB_HOST = "localhost"
 DB_PORT = "5432"
 
-# --- Data Transformation ---
+# --- Data Transformation / ETL ---
 col_interested = ['country','iso_code','year', \
                   'biofuel_consumption',\
                   'coal_consumption',\
