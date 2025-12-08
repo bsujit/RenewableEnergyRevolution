@@ -1,0 +1,247 @@
+CountryName,ISOCode,ISO3166-2
+Afghanistan,AFG,ISO 3166-2:AF
+Åland Islands,ALA,ISO 3166-2:AX
+Albania,ALB,ISO 3166-2:AL
+Algeria,DZA,ISO 3166-2:DZ
+American Samoa,ASM,ISO 3166-2:AS
+Andorra,AND,ISO 3166-2:AD
+Angola,AGO,ISO 3166-2:AO
+Anguilla,AIA,ISO 3166-2:AI
+Antarctica,ATA,ISO 3166-2:AQ
+Antigua and Barbuda,ATG,ISO 3166-2:AG
+Argentina,ARG,ISO 3166-2:AR
+Armenia,ARM,ISO 3166-2:AM
+Aruba,ABW,ISO 3166-2:AW
+Australia,AUS,ISO 3166-2:AU
+Austria,AUT,ISO 3166-2:AT
+Azerbaijan,AZE,ISO 3166-2:AZ
+Bahamas,BHS,ISO 3166-2:BS
+Bahrain,BHR,ISO 3166-2:BH
+Bangladesh,BGD,ISO 3166-2:BD
+Barbados,BRB,ISO 3166-2:BB
+Belarus,BLR,ISO 3166-2:BY
+Belgium,BEL,ISO 3166-2:BE
+Belize,BLZ,ISO 3166-2:BZ
+Benin,BEN,ISO 3166-2:BJ
+Bermuda,BMU,ISO 3166-2:BM
+Bhutan,BTN,ISO 3166-2:BT
+Bolivia,BOL,ISO 3166-2:BO
+Bosnia and Herzegovina,BIH,ISO 3166-2:BA
+Botswana,BWA,ISO 3166-2:BW
+Bouvet Island,BVT,ISO 3166-2:BV
+Brazil,BRA,ISO 3166-2:BR
+British Indian Ocean Territory,IOT,ISO 3166-2:IO
+Brunei Darussalam,BRN,ISO 3166-2:BN
+Bulgaria,BGR,ISO 3166-2:BG
+Burkina Faso,BFA,ISO 3166-2:BF
+Burundi,BDI,ISO 3166-2:BI
+Cambodia,KHM,ISO 3166-2:KH
+Cameroon,CMR,ISO 3166-2:CM
+Canada,CAN,ISO 3166-2:CA
+Cape Verde,CPV,ISO 3166-2:CV
+Cayman Islands,CYM,ISO 3166-2:KY
+Central African Republic,CAF,ISO 3166-2:CF
+Chad,TCD,ISO 3166-2:TD
+Chile,CHL,ISO 3166-2:CL
+China,CHN,ISO 3166-2:CN
+Christmas Island,CXR,ISO 3166-2:CX
+Cocos (Keeling) Islands,CCK,ISO 3166-2:CC
+Colombia,COL,ISO 3166-2:CO
+Comoros,COM,ISO 3166-2:KM
+Congo,COG,ISO 3166-2:CG
+"Congo, the Democratic Republic of the",COD,ISO 3166-2:CD
+Cook Islands,COK,ISO 3166-2:CK
+Costa Rica,CRI,ISO 3166-2:CR
+Côte d'Ivoire,CIV,ISO 3166-2:CI
+Croatia,HRV,ISO 3166-2:HR
+Cuba,CUB,ISO 3166-2:CU
+Cyprus,CYP,ISO 3166-2:CY
+Czech Republic,CZE,ISO 3166-2:CZ
+Denmark,DNK,ISO 3166-2:DK
+Djibouti,DJI,ISO 3166-2:DJ
+Dominica,DMA,ISO 3166-2:DM
+Dominican Republic,DOM,ISO 3166-2:DO
+Ecuador,ECU,ISO 3166-2:EC
+Egypt,EGY,ISO 3166-2:EG
+El Salvador,SLV,ISO 3166-2:SV
+Equatorial Guinea,GNQ,ISO 3166-2:GQ
+Eritrea,ERI,ISO 3166-2:ER
+Estonia,EST,ISO 3166-2:EE
+Ethiopia,ETH,ISO 3166-2:ET
+Falkland Islands (Malvinas),FLK,ISO 3166-2:FK
+Faroe Islands,FRO,ISO 3166-2:FO
+Fiji,FJI,ISO 3166-2:FJ
+Finland,FIN,ISO 3166-2:FI
+France,FRA,ISO 3166-2:FR
+French Guiana,GUF,ISO 3166-2:GF
+French Polynesia,PYF,ISO 3166-2:PF
+French Southern Territories,ATF,ISO 3166-2:TF
+Gabon,GAB,ISO 3166-2:GA
+Gambia,GMB,ISO 3166-2:GM
+Georgia,GEO,ISO 3166-2:GE
+Germany,DEU,ISO 3166-2:DE
+Ghana,GHA,ISO 3166-2:GH
+Gibraltar,GIB,ISO 3166-2:GI
+Greece,GRC,ISO 3166-2:GR
+Greenland,GRL,ISO 3166-2:GL
+Grenada,GRD,ISO 3166-2:GD
+Guadeloupe,GLP,ISO 3166-2:GP
+Guam,GUM,ISO 3166-2:GU
+Guatemala,GTM,ISO 3166-2:GT
+Guernsey,GGY,ISO 3166-2:GG
+Guinea,GIN,ISO 3166-2:GN
+Guinea-Bissau,GNB,ISO 3166-2:GW
+Guyana,GUY,ISO 3166-2:GY
+Haiti,HTI,ISO 3166-2:HT
+Heard Island and McDonald Islands,HMD,ISO 3166-2:HM
+Holy See (Vatican City State),VAT,ISO 3166-2:VA
+Honduras,HND,ISO 3166-2:HN
+Hong Kong,HKG,ISO 3166-2:HK
+Hungary,HUN,ISO 3166-2:HU
+Iceland,ISL,ISO 3166-2:IS
+India,IND,ISO 3166-2:IN
+Indonesia,IDN,ISO 3166-2:ID
+Iran,IRN,ISO 3166-2:IR
+Iraq,IRQ,ISO 3166-2:IQ
+Ireland,IRL,ISO 3166-2:IE
+Isle of Man,IMN,ISO 3166-2:IM
+Israel,ISR,ISO 3166-2:IL
+Italy,ITA,ISO 3166-2:IT
+Jamaica,JAM,ISO 3166-2:JM
+Japan,JPN,ISO 3166-2:JP
+Jersey,JEY,ISO 3166-2:JE
+Jordan,JOR,ISO 3166-2:JO
+Kazakhstan,KAZ,ISO 3166-2:KZ
+Kenya,KEN,ISO 3166-2:KE
+Kiribati,KIR,ISO 3166-2:KI
+"Korea, Democratic People's Republic of",PRK,ISO 3166-2:KP
+"Korea, Republic of (South Korea)",KOR,ISO 3166-2:KR
+Kuwait,KWT,ISO 3166-2:KW
+Kyrgyzstan,KGZ,ISO 3166-2:KG
+Lao People's Democratic Republic,LAO,ISO 3166-2:LA
+Latvia,LVA,ISO 3166-2:LV
+Lebanon,LBN,ISO 3166-2:LB
+Lesotho,LSO,ISO 3166-2:LS
+Liberia,LBR,ISO 3166-2:LR
+Libyan Arab Jamahiriya,LBY,ISO 3166-2:LY
+Liechtenstein,LIE,ISO 3166-2:LI
+Lithuania,LTU,ISO 3166-2:LT
+Luxembourg,LUX,ISO 3166-2:LU
+Macao,MAC,ISO 3166-2:MO
+"Macedonia, the former Yugoslav Republic of",MKD,ISO 3166-2:MK
+Madagascar,MDG,ISO 3166-2:MG
+Malawi,MWI,ISO 3166-2:MW
+Malaysia,MYS,ISO 3166-2:MY
+Maldives,MDV,ISO 3166-2:MV
+Mali,MLI,ISO 3166-2:ML
+Malta,MLT,ISO 3166-2:MT
+Marshall Islands,MHL,ISO 3166-2:MH
+Martinique,MTQ,ISO 3166-2:MQ
+Mauritania,MRT,ISO 3166-2:MR
+Mauritius,MUS,ISO 3166-2:MU
+Mayotte,MYT,ISO 3166-2:YT
+Mexico,MEX,ISO 3166-2:MX
+"Micronesia, Federated States of",FSM,ISO 3166-2:FM
+"Moldova, Republic of",MDA,ISO 3166-2:MD
+Monaco,MCO,ISO 3166-2:MC
+Mongolia,MNG,ISO 3166-2:MN
+Montenegro,MNE,ISO 3166-2:ME
+Montserrat,MSR,ISO 3166-2:MS
+Morocco,MAR,ISO 3166-2:MA
+Mozambique,MOZ,ISO 3166-2:MZ
+Myanmar,MMR,ISO 3166-2:MM
+Namibia,NAM,ISO 3166-2:NA
+Nauru,NRU,ISO 3166-2:NR
+Nepal,NPL,ISO 3166-2:NP
+Netherlands,NLD,ISO 3166-2:NL
+Netherlands Antilles,ANT,ISO 3166-2:AN
+New Caledonia,NCL,ISO 3166-2:NC
+New Zealand,NZL,ISO 3166-2:NZ
+Nicaragua,NIC,ISO 3166-2:NI
+Niger,NER,ISO 3166-2:NE
+Nigeria,NGA,ISO 3166-2:NG
+Niue,NIU,ISO 3166-2:NU
+Norfolk Island,NFK,ISO 3166-2:NF
+Northern Mariana Islands,MNP,ISO 3166-2:MP
+Norway,NOR,ISO 3166-2:NO
+Oman,OMN,ISO 3166-2:OM
+Pakistan,PAK,ISO 3166-2:PK
+Palau,PLW,ISO 3166-2:PW
+"Palestinian Territory, Occupied",PSE,ISO 3166-2:PS
+Panama,PAN,ISO 3166-2:PA
+Papua New Guinea,PNG,ISO 3166-2:PG
+Paraguay,PRY,ISO 3166-2:PY
+Peru,PER,ISO 3166-2:PE
+Philippines,PHL,ISO 3166-2:PH
+Pitcairn,PCN,ISO 3166-2:PN
+Poland,POL,ISO 3166-2:PL
+Portugal,PRT,ISO 3166-2:PT
+Puerto Rico,PRI,ISO 3166-2:PR
+Qatar,QAT,ISO 3166-2:QA
+Reunion,REU,ISO 3166-2:RE
+Romania,ROU,ISO 3166-2:RO
+Russia,RUS,ISO 3166-2:RU
+Rwanda,RWA,ISO 3166-2:RW
+Saint Barthélemy,BLM,ISO 3166-2:BL
+"Saint Helena, Ascension and Tristan da Cunha",SHN,ISO 3166-2:SH
+Saint Kitts and Nevis,KNA,ISO 3166-2:KN
+Saint Lucia,LCA,ISO 3166-2:LC
+Saint Martin,MAF,ISO 3166-2:MF
+Saint Pierre and Miquelon,SPM,ISO 3166-2:PM
+Saint Vincent and the Grenadines,VCT,ISO 3166-2:VC
+Samoa,WSM,ISO 3166-2:WS
+San Marino,SMR,ISO 3166-2:SM
+Sao Tome and Principe,STP,ISO 3166-2:ST
+Saudi Arabia,SAU,ISO 3166-2:SA
+Senegal,SEN,ISO 3166-2:SN
+Serbia,SRB,ISO 3166-2:RS
+Seychelles,SYC,ISO 3166-2:SC
+Sierra Leone,SLE,ISO 3166-2:SL
+Singapore,SGP,ISO 3166-2:SG
+Slovakia,SVK,ISO 3166-2:SK
+Slovenia,SVN,ISO 3166-2:SI
+Solomon Islands,SLB,ISO 3166-2:SB
+Somalia,SOM,ISO 3166-2:SO
+South Africa,ZAF,ISO 3166-2:ZA
+South Georgia and the South Sandwich Islands,SGS,ISO 3166-2:GS
+Spain,ESP,ISO 3166-2:ES
+Sri Lanka,LKA,ISO 3166-2:LK
+Sudan,SDN,ISO 3166-2:SD
+Suriname,SUR,ISO 3166-2:SR
+Svalbard and Jan Mayen,SJM,ISO 3166-2:SJ
+Swaziland,SWZ,ISO 3166-2:SZ
+Sweden,SWE,ISO 3166-2:SE
+Switzerland,CHE,ISO 3166-2:CH
+Syrian Arab Republic,SYR,ISO 3166-2:SY
+Taiwan,TWN,ISO 3166-2:TW
+Tajikistan,TJK,ISO 3166-2:TJ
+"Tanzania, United Republic of",TZA,ISO 3166-2:TZ
+Thailand,THA,ISO 3166-2:TH
+Timor-Leste,TLS,ISO 3166-2:TL
+Togo,TGO,ISO 3166-2:TG
+Tokelau,TKL,ISO 3166-2:TK
+Tonga,TON,ISO 3166-2:TO
+Trinidad and Tobago,TTO,ISO 3166-2:TT
+Tunisia,TUN,ISO 3166-2:TN
+Turkey,TUR,ISO 3166-2:TR
+Turkmenistan,TKM,ISO 3166-2:TM
+Turks and Caicos,TCA,ISO 3166-2:TC
+Tuvalu,TUV,ISO 3166-2:TV
+Uganda,UGA,ISO 3166-2:UG
+Ukraine,UKR,ISO 3166-2:UA
+United Arab Emirates,ARE,ISO 3166-2:AE
+United Kingdom,GBR,ISO 3166-2:GB
+United States Of America,USA,ISO 3166-2:US
+United States Minor Outlying Islands,UMI,ISO 3166-2:UM
+Uruguay,URY,ISO 3166-2:UY
+Uzbekistan,UZB,ISO 3166-2:UZ
+Vanuatu,VUT,ISO 3166-2:VU
+Venezuela,VEN,ISO 3166-2:VE
+Vietnam,VNM,ISO 3166-2:VN
+"Virgin Islands, British",VGB,ISO 3166-2:VG
+"Virgin Islands, U.S.",VIR,ISO 3166-2:VI
+Wallis and Futuna,WLF,ISO 3166-2:WF
+Western Sahara,ESH,ISO 3166-2:EH
+Yemen,YEM,ISO 3166-2:YE
+Zambia,ZMB,ISO 3166-2:ZM
+Zimbabwe,ZWE,ISO 3166-2:ZW
