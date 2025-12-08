@@ -14,7 +14,7 @@ joined_list = glob.glob(joined_files)
 list_of_dfs = [pd.read_csv(filename) for filename in joined_list]
 combined_df = pd.concat(list_of_dfs, ignore_index=True)
 
-data = pd.DataFrame(combined_df)
+# data = pd.DataFrame(combined_df)
 
 # print(combined_df.head())
 # print(combined_df.info())
@@ -29,26 +29,7 @@ DB_PASSWORD = "123456"
 DB_HOST = "localhost"
 DB_PORT = "5432"
 
-    
-conn = psycopg2.connect(host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD)
-conn_string = f'postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}'
-db_engine = create_engine(conn_string)
-
-select_query = f"SELECT * from isocodes LIMIT 5;"
-df= pd.read_sql(select_query, db_engine)
-print(df.head())
-conn.close()
-
-# --- Import DataFrame into PostgreSQL ---
-# try:
-#     combined_df.to_sql('staging_allcountryenergy', db_engine, if_exists='append', index=False)
-#     print(f"Successfully imported data from CSVs into '{'staging_allcountryenergy'}' table.")
-# except Exception as e:
-#     print(f"Error importing data: {e}")
-
-# # Optional: Close the connection
-# db_engine.dispose()
-
+# --- Data Transformation ---
 col_interested = ['country','iso_code','year', \
                   'biofuel_consumption',\
                   'coal_consumption',\
@@ -93,15 +74,26 @@ col_interested = ['country','iso_code','year', \
 
 renew_data = combined_df[col_interested]
 
-print(renew_data.head())
-print(renew_data.shape)
+# print(renew_data.head())
+# print(renew_data.shape)
+
+
+# --- Connect to PostgreSQL and Read Sample Data ---
+conn = psycopg2.connect(host=DB_HOST, database=DB_NAME, user=DB_USER, password=DB_PASSWORD)
+conn_string = f'postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}'
+db_engine = create_engine(conn_string)
 
 # --- Import DataFrame into PostgreSQL ---
-try:
-    renew_data.to_sql('staging_allcountryenergy', db_engine, if_exists='append', index=False)
-    print(f"Successfully imported data from CSVs into '{'staging_allcountryenergy'}' table.")
+try:    
+    print(f"Please Truncate table before running twice.")
+    renew_data.to_sql('allcountryenergy', db_engine, if_exists='append', index=False)
+    print(f"Successfully imported data from CSVs into '{'allcountryenergy'}' table.")
+    select_query = f"SELECT * from allcountryenergy WHERE country = 'India' LIMIT 5;"
+    df= pd.read_sql(select_query, db_engine)
+    print(df.head())
 except Exception as e:
     print(f"Error importing data: {e}")
 
 # Optional: Close the connection
 db_engine.dispose()
+conn.close()
