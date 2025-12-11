@@ -3,8 +3,10 @@ import os
 import glob
 import psycopg2
 from sqlalchemy import create_engine
-import io
-import csv
+from dotenv import load_dotenv
+
+# Load environment variables (e.g., GOOGLE_API_KEY)
+load_dotenv()
 
 
 joined_files = os.path.join("C:\RenewableEnergyAI\RenewableEnergyRevolution\data\countrywise", "*.csv")
@@ -23,9 +25,9 @@ combined_df = pd.concat(list_of_dfs, ignore_index=True)
 # print(len(data))
 
 # --- Database Connection Details ---
-DB_NAME = "energy"
-DB_USER = "postgres"
-DB_PASSWORD = "123456"
+DB_NAME = os.getenv("DB_NAME")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_HOST = "localhost"
 DB_PORT = "5432"
 

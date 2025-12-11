@@ -3,15 +3,17 @@ import os
 import glob
 import psycopg2
 from sqlalchemy import create_engine
-import io
-import csv
+from dotenv import load_dotenv
+
+# Load environment variables (e.g., GOOGLE_API_KEY)
+load_dotenv()
 
 
 joined_files = os.path.join("C:\RenewableEnergyAI\RenewableEnergyRevolution\data\World_Production", "*.csv")
-joined_list = glob.glob(joined_files)
+joined_list_worldprod = glob.glob(joined_files)
 
     # Using a list comprehension
-list_of_dfs = [pd.read_csv(filename) for filename in joined_list]
+list_of_dfs = [pd.read_csv(filename) for filename in joined_list_worldprod]
 combined_df = pd.concat(list_of_dfs, ignore_index=True)
 
 # data = pd.DataFrame(combined_df)
@@ -23,9 +25,9 @@ combined_df = pd.concat(list_of_dfs, ignore_index=True)
 # print(len(data))
 
 # --- Database Connection Details ---
-DB_NAME = "energy"
-DB_USER = "postgres"
-DB_PASSWORD = "123456"
+DB_NAME = os.getenv("DB_NAME")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_HOST = "localhost"
 DB_PORT = "5432"
 
@@ -44,7 +46,7 @@ try:
     df= pd.read_sql(select_query, db_engine)
     print(df.head())
 except Exception as e:
-    print(f"Error importing data: {e}")
+    print(f"Error importing Energy Production data: {e}")
 
 # Optional: Close the connection
 db_engine.dispose()
